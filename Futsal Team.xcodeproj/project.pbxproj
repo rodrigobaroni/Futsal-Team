@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		215A525B2153DA1B0060576A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A525A2153DA1B0060576A /* AppDelegate.swift */; };
-		215A525D2153DA1B0060576A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A525C2153DA1B0060576A /* ViewController.swift */; };
-		215A52602153DA1B0060576A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215A525E2153DA1B0060576A /* Main.storyboard */; };
 		215A52622153DA1E0060576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215A52612153DA1E0060576A /* Assets.xcassets */; };
 		215A52652153DA1E0060576A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215A52632153DA1E0060576A /* LaunchScreen.storyboard */; };
 		215A52702153DA1F0060576A /* Futsal_TeamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A526F2153DA1F0060576A /* Futsal_TeamTests.swift */; };
 		215A527B2153DA1F0060576A /* Futsal_TeamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A527A2153DA1F0060576A /* Futsal_TeamUITests.swift */; };
+		215A52972153DBC20060576A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52962153DBC20060576A /* Extensions.swift */; };
+		215A52992153DBC70060576A /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52982153DBC70060576A /* ModelViewController.swift */; };
+		215A529C2153DBD50060576A /* Inicio_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A529A2153DBD50060576A /* Inicio_VC.swift */; };
+		215A529D2153DBD60060576A /* Cadastro_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A529B2153DBD50060576A /* Cadastro_VC.swift */; };
+		215A529F2153DBDC0060576A /* Time_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A529E2153DBDC0060576A /* Time_VC.swift */; };
+		215A52A12153DBE10060576A /* Placar_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52A02153DBE10060576A /* Placar_VC.swift */; };
+		215A52A32153DBE40060576A /* EditarTime_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52A22153DBE40060576A /* EditarTime_VC.swift */; };
+		215A52A52153DBE80060576A /* Historico_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52A42153DBE80060576A /* Historico_VC.swift */; };
+		215A52A72153DBEA0060576A /* PlacarHistorico_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52A62153DBEA0060576A /* PlacarHistorico_VC.swift */; };
+		215A52A92153DBED0060576A /* Agenda_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52A82153DBED0060576A /* Agenda_VC.swift */; };
+		215A52AB2153DBF00060576A /* Evento_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52AA2153DBF00060576A /* Evento_VC.swift */; };
+		215A52AD2153DBF50060576A /* Escalacao_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52AC2153DBF50060576A /* Escalacao_VC.swift */; };
+		215A52AF2153DBF90060576A /* JogadorPerfil_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52AE2153DBF90060576A /* JogadorPerfil_VC.swift */; };
+		215A52B12153DBFC0060576A /* PDF_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52B02153DBFC0060576A /* PDF_VC.swift */; };
+		215A52B32153DC010060576A /* Configuracoes_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52B22153DC010060576A /* Configuracoes_VC.swift */; };
+		215A52B52153DC080060576A /* Placar_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52B42153DC080060576A /* Placar_TVC.swift */; };
+		215A52B72153DC0B0060576A /* Placar_TVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215A52B62153DC0B0060576A /* Placar_TVC.xib */; };
+		215A52B92153DC0F0060576A /* Historico_TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215A52B82153DC0F0060576A /* Historico_TVC.swift */; };
+		215A52BB2153DC120060576A /* Historico_TVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215A52BA2153DC120060576A /* Historico_TVC.xib */; };
+		215A52BD2153DC1F0060576A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215A52BC2153DC1F0060576A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +54,6 @@
 /* Begin PBXFileReference section */
 		215A52572153DA1B0060576A /* Futsal Team.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Futsal Team.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		215A525A2153DA1B0060576A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		215A525C2153DA1B0060576A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		215A525F2153DA1B0060576A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		215A52612153DA1E0060576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		215A52642153DA1E0060576A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		215A52662153DA1E0060576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +63,26 @@
 		215A52762153DA1F0060576A /* Futsal TeamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Futsal TeamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		215A527A2153DA1F0060576A /* Futsal_TeamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Futsal_TeamUITests.swift; sourceTree = "<group>"; };
 		215A527C2153DA1F0060576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215A52962153DBC20060576A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		215A52982153DBC70060576A /* ModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		215A529A2153DBD50060576A /* Inicio_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inicio_VC.swift; sourceTree = "<group>"; };
+		215A529B2153DBD50060576A /* Cadastro_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cadastro_VC.swift; sourceTree = "<group>"; };
+		215A529E2153DBDC0060576A /* Time_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Time_VC.swift; sourceTree = "<group>"; };
+		215A52A02153DBE10060576A /* Placar_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Placar_VC.swift; sourceTree = "<group>"; };
+		215A52A22153DBE40060576A /* EditarTime_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarTime_VC.swift; sourceTree = "<group>"; };
+		215A52A42153DBE80060576A /* Historico_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historico_VC.swift; sourceTree = "<group>"; };
+		215A52A62153DBEA0060576A /* PlacarHistorico_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacarHistorico_VC.swift; sourceTree = "<group>"; };
+		215A52A82153DBED0060576A /* Agenda_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agenda_VC.swift; sourceTree = "<group>"; };
+		215A52AA2153DBF00060576A /* Evento_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evento_VC.swift; sourceTree = "<group>"; };
+		215A52AC2153DBF50060576A /* Escalacao_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Escalacao_VC.swift; sourceTree = "<group>"; };
+		215A52AE2153DBF90060576A /* JogadorPerfil_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JogadorPerfil_VC.swift; sourceTree = "<group>"; };
+		215A52B02153DBFC0060576A /* PDF_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDF_VC.swift; sourceTree = "<group>"; };
+		215A52B22153DC010060576A /* Configuracoes_VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuracoes_VC.swift; sourceTree = "<group>"; };
+		215A52B42153DC080060576A /* Placar_TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Placar_TVC.swift; sourceTree = "<group>"; };
+		215A52B62153DC0B0060576A /* Placar_TVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Placar_TVC.xib; sourceTree = "<group>"; };
+		215A52B82153DC0F0060576A /* Historico_TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historico_TVC.swift; sourceTree = "<group>"; };
+		215A52BA2153DC120060576A /* Historico_TVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Historico_TVC.xib; sourceTree = "<group>"; };
+		215A52BC2153DC1F0060576A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +134,13 @@
 			isa = PBXGroup;
 			children = (
 				215A525A2153DA1B0060576A /* AppDelegate.swift */,
-				215A525C2153DA1B0060576A /* ViewController.swift */,
-				215A525E2153DA1B0060576A /* Main.storyboard */,
-				215A52612153DA1E0060576A /* Assets.xcassets */,
-				215A52632153DA1E0060576A /* LaunchScreen.storyboard */,
+				215A52882153DB040060576A /* Extensions */,
+				215A528D2153DB430060576A /* Realm */,
+				215A528C2153DB3C0060576A /* Models */,
+				215A528B2153DB310060576A /* ViewControllers */,
+				215A528A2153DB250060576A /* TableViewCells */,
+				215A52892153DB120060576A /* Storyboards */,
+				215A52952153DB970060576A /* Imagens */,
 				215A52662153DA1E0060576A /* Info.plist */,
 			);
 			path = "Futsal Team";
@@ -123,6 +162,135 @@
 				215A527C2153DA1F0060576A /* Info.plist */,
 			);
 			path = "Futsal TeamUITests";
+			sourceTree = "<group>";
+		};
+		215A52882153DB040060576A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				215A52962153DBC20060576A /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		215A52892153DB120060576A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				215A52BC2153DC1F0060576A /* Main.storyboard */,
+				215A52632153DA1E0060576A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		215A528A2153DB250060576A /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				215A528F2153DB5C0060576A /* Placar_TVC */,
+				215A52B42153DC080060576A /* Placar_TVC.swift */,
+				215A52B62153DC0B0060576A /* Placar_TVC.xib */,
+				215A528E2153DB510060576A /* Historico_TVC */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		215A528B2153DB310060576A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				215A52942153DB8C0060576A /* Inicio */,
+				215A52932153DB870060576A /* Time */,
+				215A52922153DB820060576A /* Agenda */,
+				215A52912153DB7B0060576A /* Escalação */,
+				215A52902153DB730060576A /* Configurações */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		215A528C2153DB3C0060576A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				215A52982153DBC70060576A /* ModelViewController.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		215A528D2153DB430060576A /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		215A528E2153DB510060576A /* Historico_TVC */ = {
+			isa = PBXGroup;
+			children = (
+				215A52B82153DC0F0060576A /* Historico_TVC.swift */,
+				215A52BA2153DC120060576A /* Historico_TVC.xib */,
+			);
+			path = Historico_TVC;
+			sourceTree = "<group>";
+		};
+		215A528F2153DB5C0060576A /* Placar_TVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Placar_TVC;
+			sourceTree = "<group>";
+		};
+		215A52902153DB730060576A /* Configurações */ = {
+			isa = PBXGroup;
+			children = (
+				215A52B22153DC010060576A /* Configuracoes_VC.swift */,
+			);
+			name = "Configurações";
+			path = "Configurações";
+			sourceTree = "<group>";
+		};
+		215A52912153DB7B0060576A /* Escalação */ = {
+			isa = PBXGroup;
+			children = (
+				215A52AC2153DBF50060576A /* Escalacao_VC.swift */,
+				215A52AE2153DBF90060576A /* JogadorPerfil_VC.swift */,
+				215A52B02153DBFC0060576A /* PDF_VC.swift */,
+			);
+			name = "Escalação";
+			path = "Escalação";
+			sourceTree = "<group>";
+		};
+		215A52922153DB820060576A /* Agenda */ = {
+			isa = PBXGroup;
+			children = (
+				215A52A82153DBED0060576A /* Agenda_VC.swift */,
+				215A52AA2153DBF00060576A /* Evento_VC.swift */,
+			);
+			path = Agenda;
+			sourceTree = "<group>";
+		};
+		215A52932153DB870060576A /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				215A529E2153DBDC0060576A /* Time_VC.swift */,
+				215A52A02153DBE10060576A /* Placar_VC.swift */,
+				215A52A22153DBE40060576A /* EditarTime_VC.swift */,
+				215A52A42153DBE80060576A /* Historico_VC.swift */,
+				215A52A62153DBEA0060576A /* PlacarHistorico_VC.swift */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
+		215A52942153DB8C0060576A /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				215A529B2153DBD50060576A /* Cadastro_VC.swift */,
+				215A529A2153DBD50060576A /* Inicio_VC.swift */,
+			);
+			path = Inicio;
+			sourceTree = "<group>";
+		};
+		215A52952153DB970060576A /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				215A52612153DA1E0060576A /* Assets.xcassets */,
+			);
+			path = Imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +398,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				215A52652153DA1E0060576A /* LaunchScreen.storyboard in Resources */,
+				215A52BD2153DC1F0060576A /* Main.storyboard in Resources */,
+				215A52BB2153DC120060576A /* Historico_TVC.xib in Resources */,
 				215A52622153DA1E0060576A /* Assets.xcassets in Resources */,
-				215A52602153DA1B0060576A /* Main.storyboard in Resources */,
+				215A52B72153DC0B0060576A /* Placar_TVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +426,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				215A525D2153DA1B0060576A /* ViewController.swift in Sources */,
+				215A52A92153DBED0060576A /* Agenda_VC.swift in Sources */,
+				215A52B32153DC010060576A /* Configuracoes_VC.swift in Sources */,
 				215A525B2153DA1B0060576A /* AppDelegate.swift in Sources */,
+				215A52A12153DBE10060576A /* Placar_VC.swift in Sources */,
+				215A529D2153DBD60060576A /* Cadastro_VC.swift in Sources */,
+				215A529C2153DBD50060576A /* Inicio_VC.swift in Sources */,
+				215A52972153DBC20060576A /* Extensions.swift in Sources */,
+				215A52992153DBC70060576A /* ModelViewController.swift in Sources */,
+				215A52B92153DC0F0060576A /* Historico_TVC.swift in Sources */,
+				215A52AB2153DBF00060576A /* Evento_VC.swift in Sources */,
+				215A52A32153DBE40060576A /* EditarTime_VC.swift in Sources */,
+				215A52AF2153DBF90060576A /* JogadorPerfil_VC.swift in Sources */,
+				215A52B12153DBFC0060576A /* PDF_VC.swift in Sources */,
+				215A52B52153DC080060576A /* Placar_TVC.swift in Sources */,
+				215A52AD2153DBF50060576A /* Escalacao_VC.swift in Sources */,
+				215A529F2153DBDC0060576A /* Time_VC.swift in Sources */,
+				215A52A72153DBEA0060576A /* PlacarHistorico_VC.swift in Sources */,
+				215A52A52153DBE80060576A /* Historico_VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +479,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		215A525E2153DA1B0060576A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				215A525F2153DA1B0060576A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		215A52632153DA1E0060576A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
