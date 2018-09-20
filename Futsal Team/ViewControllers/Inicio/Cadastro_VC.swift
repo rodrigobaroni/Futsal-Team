@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class Cadastro_VC: ModelViewController {
 
@@ -27,6 +28,15 @@ class Cadastro_VC: ModelViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        // Resgatar a instância do Realm
+        let realm = try! Realm()
+        let time = realm.object(ofType: Time.self, forPrimaryKey: "name")
+        
+        self.txtFieldNomeTime.text = time?.nomeTime
+        self.txtFieldFundacaoTime.text = time?.fundacao
+        self.textFieldTecnicoTime.text = time?.tecnico
+        
         self.setupLayout(screenName: "Cadastro")
         
         // Do any additional setup after loading the view.
@@ -50,6 +60,26 @@ class Cadastro_VC: ModelViewController {
         
     }
 
+    @IBAction func actionSalvar(_ sender: UIButton) {
+        
+        // Resgatar a instância do Realm
+        let realm = try! Realm()
+        
+        let nome = self.txtFieldNomeTime.text
+        let fundacao = self.txtFieldFundacaoTime.text
+        let tecnico = self.textFieldTecnicoTime.text
+        
+        let time = Time()
+        time.nomeTime = nome!
+        time.fundacao = fundacao!
+        time.tecnico = tecnico!
+        
+        // Criar uma transação no realm
+        try! realm.write {
+            realm.add(time)
+        }
+        
+    }
     /*
     // MARK: - Navigation
 

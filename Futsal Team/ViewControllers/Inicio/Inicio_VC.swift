@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Inicio_VC: UIViewController {
+class Inicio_VC: ModelViewController {
 
     
     

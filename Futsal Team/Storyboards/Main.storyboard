@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -243,7 +242,7 @@
         <!--Time-->
         <scene sceneID="2cL-Q6-ukU">
             <objects>
-                <viewController id="I4T-2N-rYD" customClass="Time_VC" customModule="Rochdale_FS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="I4T-2N-rYD" customClass="Time_VC" customModule="Futsal_Team" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TRA-fX-2Nf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -891,7 +890,7 @@
                                 <rect key="frame" x="0.0" y="303" width="375" height="386"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellPlacar" id="ZSr-X0-qV5" customClass="Placar_TVC" customModule="Rochdale_FS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellPlacar" id="ZSr-X0-qV5" customClass="Placar_TVC" customModule="Futsal_Team" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZSr-X0-qV5" id="QWV-L9-nTK">
@@ -971,7 +970,7 @@
                                 <rect key="frame" x="0.0" y="88" width="375" height="724"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellHistorico" id="pW0-6t-bz1" customClass="Historico_TVC" customModule="Rochdale_FS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellHistorico" id="pW0-6t-bz1" customClass="Historico_TVC" customModule="Futsal_Team" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pW0-6t-bz1" id="DaS-cp-HMm">
@@ -1114,7 +1113,7 @@
                                 <rect key="frame" x="0.0" y="220" width="375" height="509"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellPlacar" id="YtU-P6-dXI" customClass="Placar_TVC" customModule="Rochdale_FS" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellPlacar" id="YtU-P6-dXI" customClass="Placar_TVC" customModule="Futsal_Team" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YtU-P6-dXI" id="RfR-Ui-4k7">
@@ -1275,7 +1274,7 @@
         <!--InicioVC-->
         <scene sceneID="JSw-nz-Rsv">
             <objects>
-                <viewController id="tHM-bi-cWs" customClass="Inicio_VC" customModule="Rochdale_FS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tHM-bi-cWs" customClass="Inicio_VC" customModule="Futsal_Team" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6jJ-0D-bm9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1322,7 +1321,7 @@
         <!--CadastroVC-->
         <scene sceneID="3g5-rl-xNs">
             <objects>
-                <viewController id="QTq-7L-e6y" customClass="Cadastro_VC" customModule="Rochdale_FS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QTq-7L-e6y" customClass="Cadastro_VC" customModule="Futsal_Team" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hvV-0E-cXD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1393,6 +1392,7 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="actionSalvar:" destination="QTq-7L-e6y" eventType="touchUpInside" id="Wpc-fI-eWN"/>
                                     <segue destination="NfI-0s-HoH" kind="show" identifier="SegueToTabBar" id="3Qn-63-mUZ"/>
                                 </connections>
                             </button>
